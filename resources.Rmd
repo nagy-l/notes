@@ -1,0 +1,248 @@
+---
+title: "Resources"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: TRUE
+    toc_float: TRUE
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Data analysis/modelling
+
+* [Wickham, Grolemund - R for Data Science](https://r4ds.had.co.nz/)
+
+* [Kuhn, Johnson - Feature Engineering and Selection](https://bookdown.org/max/FES/)
+
+* [Lindeløv - Common statistical tests are linear models](https://lindeloev.github.io/tests-as-linear/)
+
+* [Doogue - Common statistical tests are linear models: a work through](https://steverxd.github.io/Stat_tests/)
+
+* [Kurz - Statistical Rethinking with brms, ggplot2, and the tidyverse](https://bookdown.org/ajkurz/Statistical_Rethinking_recoded/)
+
+* [Clark - Generalized Additive Models](https://m-clark.github.io/generalized-additive-models/)
+
+* [Peng - Exploratory Data Analysis with R](https://bookdown.org/rdpeng/exdata/)
+
+* [Peng, Matsui - The Art of Data Science](https://bookdown.org/rdpeng/artofdatascience/)
+
+* [Peng - Advanced Statistical Computing](https://bookdown.org/rdpeng/advstatcomp/)
+
+* [Janssens - Data Science at the Command Line](https://www.datascienceatthecommandline.com/)
+
+* [Ross - GAMs in R](https://noamross.github.io/gams-in-r-course/)
+
+* [Shalizi  - Advanced Data Analysis from an Elementary Point of View](http://www.stat.cmu.edu/~cshalizi/ADAfaEPoV/)
+
+* [Shalizi - The Truth About Linear Regression](http://www.stat.cmu.edu/~cshalizi/TALR/)
+
+* [James, Witten, Hastie, Tibshirani - An Introduction to Statistical Learning with Applications in R](http://www-bcf.usc.edu/~gareth/ISL/ISLR%20Sixth%20Printing.pdf)
+
+* [Hastie, Tibshirani, Friedman - The Elements of Statistical Learning: Data Mining, Inference, and Prediction 2nd ed](http://www.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12.pdf)
+
+* [Efron, Hastie - Computer Age Statistical Inference:Algorithms, Evidence and Data Science](https://web.stanford.edu/~hastie/CASI_files/PDF/casi.pdf)
+
+* [Hastie, Tibshirani, Wainwright - Statistical Learning with Sparsity: the Lasso and Generalizations](https://web.stanford.edu/~hastie/StatLearnSparsity_files/SLS_corrected_1.4.16.pdf)
+
+* [Lavine - Introduction to Statistical Thought](https://people.math.umass.edu/~lavine/Book/book.pdf)
+
+* [Navarro - Learning statistics with R](https://learningstatisticswithr.com/book/)
+
+* [Navarro - Learning statistics with R - tidy version](http://tidylsr.djnavarro.net/index.html)
+
+* [Kuhn, Johnson - Feature Engineering and Selection: A Practical Approach for Predictive Models](http://www.feat.engineering/)
+
+
+## Visualization
+
+* [Wickham - ggplot2: Elegant Graphics for Data Analysis 3rd ed](https://ggplot2-book.org/)
+
+* [Wilke - Fundamentals of Data Visualization](https://serialmentor.com/dataviz/)
+
+* [Kabacoff - Data Visualization with R](https://rkabacoff.github.io/datavis/)
+
+* [Chang - R Graphics Cookbook 2nd ed](https://r-graphics.org/)
+
+
+## R
+
+* [Gillespie, Lovelace - Efficient R programming](https://bookdown.org/csgillespie/efficientR/)
+
+* [Wickham - Advanced R 2nd ed](https://adv-r.hadley.nz/)
+
+* [Wickham - Advanced R 1st ed](http://adv-r.had.co.nz/)
+
+* [Wickham, Bryan - R Packages 2nd ed](https://r-pkgs.org/)
+
+* [Wickham - R Packages 1st ed](http://r-pkgs.had.co.nz/)
+
+* [Henry, Wickham - Tidy evaluation](https://tidyeval.tidyverse.org/)
+
+* [Peng - R Programming for Data Science](https://bookdown.org/rdpeng/rprogdatascience/)
+
+* [Peng, Kross, Anderson - Mastering Software Development in R](https://bookdown.org/rdpeng/RProgDA/)
+
+* [Bryan, Hester - What They Forgot to Teach You About R](https://rstats.wtf/)
+
+* [Burns - The R Inferno](https://www.burns-stat.com/pages/Tutor/R_inferno.pdf)
+
+* [Johnson - Rchaeology: Idioms of R Programming](http://pj.freefaculty.org/R/Rchaeology.pdf)
+
+* [Venables, Smith, the R Core Team - An Introduction to R](https://cran.r-project.org/doc/manuals/R-intro.pdf)
+
+
+## RMarkdown
+
+* [Xie, Allaire, Grolemund - R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)
+
+* [Xie - R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/)
+
+* [Tierney - RMarkdown for Scientists](https://rmd4sci.njtierney.com/)
+
+
+## Shiny
+
+* [Wickham - Mastering Shiny](https://mastering-shiny.org/)
+
+
+## Spark
+
+* [Luraschi, Kuo, Ruiz - Mastering Spark with R](https://therinspark.com/)
+
+
+## Interpretable machine learning
+
+* [Biecek, Burzykowski - Explanatory Model Analysis](https://pbiecek.github.io/ema/)
+
+* [Molnar - Interpretable Machine Learning](https://christophm.github.io/interpretable-ml-book/)
+
+* [Hall, Gill - An Introduction to Machine Learning Interpretability 2nd ed](https://www.h2o.ai/resources/ebook/introduction-to-machine-learning-interpretability/)
+
+
+## Time series
+
+* [Hyndman, Athanasopoulos - Forecasting: Principles and Practice 2nd ed](https://otexts.com/fpp2/)
+
+* [Hyndman, Athanasopoulos - Forecasting: Principles and Practice 3rd ed](https://otexts.com/fpp3/)
+
+* [Peng - A Very Short Course on Time Series Analysis](https://bookdown.org/rdpeng/timeseriesbook/)
+
+
+## Journals
+
+* [Journal of Statistical Software](https://www.jstatsoft.org/index)
+
+* [The R Journal](https://journal.r-project.org/)
+
+* [The Journal of Open Source Software](https://joss.theoj.org/)
+
+
+## Machine learning and data science lists
+
+* https://github.com/jphall663/awesome-machine-learning-interpretability
+
+* https://github.com/josephmisiti/awesome-machine-learning
+
+* https://github.com/josephmisiti/awesome-machine-learning/blob/master/books.md
+
+* https://github.com/josephmisiti/awesome-machine-learning/blob/master/courses.md
+
+* https://github.com/josephmisiti/awesome-machine-learning/blob/master/blogs.md
+
+* https://aiml.events/
+
+* https://github.com/ml-tooling/best-of-ml-python
+
+* https://github.com/EthicalML/awesome-production-machine-learning
+
+* https://github.com/alastairrushworth/free-data-science
+
+* https://github.com/bradleyboehmke/data-science-learning-resources
+
+* https://github.com/eugeneyan/applied-ml
+
+
+## Organization, workflow
+
+* [Principles behind the Agile Manifesto](https://agilemanifesto.org/principles.html)
+
+* https://www.jeremyjordan.me/ml-projects-guide/
+
+* [Thoen - Agile Data Science with R](https://edwinth.github.io/ADSwR/)
+
+* https://syslog.ravelin.com/data-science-best-practices-843c9693db8
+
+* https://www.ownml.co/machine-learning-canvas
+
+* https://eugeneyan.com/speaking/data-science-and-agile-can-or-not-talk/
+
+* https://eugeneyan.com/writing/data-science-and-agile-what-works-and-what-doesnt/
+
+* https://eugeneyan.com/writing/data-science-and-agile-frameworks-for-effectiveness/
+
+* https://eugeneyan.com/writing/what-i-love-about-scrum-for-data-science/
+
+* https://eugeneyan.com/writing/what-i-do-before-a-data-science-project-to-ensure-success/
+
+* https://eugeneyan.com/writing/what-i-do-during-a-data-science-project-to-ensure-success/
+
+* https://eugeneyan.com/writing/why-you-need-to-follow-up-after-your-data-science-project/
+
+
+## Git
+
+* [Bryan, Hester et al. - Happy Git and GitHub for the useR](https://happygitwithr.com/)
+
+* [Bryan - Excuse me, do you have a moment to talk about version control?](https://peerj.com/preprints/3159/)
+
+* [Chacon, Straub - Pro Git 2nd ed](https://git-scm.com/book/en/v2)
+
+* [GitHub Git cheat sheet](https://training.github.com/downloads/github-git-cheat-sheet.pdf)
+
+
+## RStudio
+
+* https://blog.rstudio.com/
+
+* https://rviews.rstudio.com/
+
+* https://solutions.rstudio.com/
+
+* https://www.rstudio.com/resources/books/
+
+* https://www.tidyverse.org/blog/
+
+* https://blogs.rstudio.com/ai/
+
+* https://community.rstudio.com/
+
+* https://education.rstudio.com/blog/
+
+* https://rviews.rstudio.com/2016/11/11/easy-tricks-you-mightve-missed/
+
+* https://rviews.rstudio.com/2016/12/09/december-16-rstudio-tips-and-tricks/
+
+* https://rviews.rstudio.com/2017/01/27/january-17-rstudio-tips-and-tricks/
+
+* https://rviews.rstudio.com/2017/03/03/february-17-tips-and-tricks/
+
+* https://rviews.rstudio.com/2017/03/31/march-17-tips-and-tricks/
+
+
+## RViews package picks
+
+* 2016: [August](https://rviews.rstudio.com/2016/10/21/august-package-picks/), [September](https://rviews.rstudio.com/2016/10/26/september-package-picks/), [October](https://rviews.rstudio.com/2016/11/23/october-package-picks/), [November](https://rviews.rstudio.com/2016/12/07/november-package-picks/), [December](https://rviews.rstudio.com/2017/01/11/december-2016-package-picks/)
+
+* 2017: [January](https://rviews.rstudio.com/2017/02/24/more-january-package-picks/), [February](https://rviews.rstudio.com/2017/03/22/february-2017-new-package-picks/), [March](https://rviews.rstudio.com/2017/04/14/march-17-new-package-picks/), [April](https://rviews.rstudio.com/2017/05/30/april-new-package-picks/), [May](https://rviews.rstudio.com/2017/06/23/may-new-package-picks/), [June](https://rviews.rstudio.com/2017/07/26/june-2017-new-package-picks/), [July](https://rviews.rstudio.com/2017/08/28/july-2017-new-package-picks/), [August](https://rviews.rstudio.com/2017/09/29/august-2017-new-package-picks/), [September](https://rviews.rstudio.com/2017/10/25/september-17-top-40-packages/), [October](https://rviews.rstudio.com/2017/11/22/october-2017-new-packages/), [November](https://rviews.rstudio.com/2017/12/22/nov-2017-new-package-picks/), [December](https://rviews.rstudio.com/2018/01/25/dec-2017-new-package-picks/)
+
+* 2018: [January](https://rviews.rstudio.com/2018/02/22/jan-2018-top-40-new-package-picks/), [February](https://rviews.rstudio.com/2018/03/29/feb-2018-top-40-new-package-picks/), [March](https://rviews.rstudio.com/2018/04/30/march-2018-top-40-new-package-picks/), [April](https://rviews.rstudio.com/2018/05/24/april-2018-top-40-new-packages/), [May](https://rviews.rstudio.com/2018/06/26/may-2018-top-40-new-packages/), [June](https://rviews.rstudio.com/2018/07/29/june-2018-top-40-new-packages/), [July](https://rviews.rstudio.com/2018/08/27/july-2018-top-40-new-packages/), [August](https://rviews.rstudio.com/2018/09/26/august-2018-top-40-new-packages/), [September](https://rviews.rstudio.com/2018/10/08/september-2018-top-40-new-packages/), [October](https://rviews.rstudio.com/2018/11/29/october-2018-top-40-new-packages/), [November](https://rviews.rstudio.com/2018/12/21/november-2018-top-40-new-packages/), [December](https://rviews.rstudio.com/2019/01/30/december-2108-top-40-new-cran-packages/)
+
+* 2019: [January](https://rviews.rstudio.com/2019/02/25/january-2019-top-40-new-cran-packages/), [February](https://rviews.rstudio.com/2019/03/26/february-2019-top-40-new-cran-packages/), [March](https://rviews.rstudio.com/2019/04/26/march-2019-top-40-new-cran-packages/), [April](https://rviews.rstudio.com/2019/05/30/april-2019-top-40-new-cran-packages/), [May](https://rviews.rstudio.com/2019/06/25/may-2019-top-40-new-cran-packages/), [June](https://rviews.rstudio.com/2019/07/24/june-2019-top-40-r-packages/), [July](https://rviews.rstudio.com/2019/08/29/july-2019-top-40-r-packages/), [August](https://rviews.rstudio.com/2019/09/26/august-2019-top-40-r-packages/), [September](https://rviews.rstudio.com/2019/10/29/sept-2019-top-40-new-r-packages/), [October](https://rviews.rstudio.com/2019/11/18/october-2019-top-40-new-r-packages/), [November](https://rviews.rstudio.com/2019/12/20/november-2019-top-40-new-r-packages/), [December](https://rviews.rstudio.com/2020/01/20/december-2019-top-40-new-r-packages/)
+
+* 2020: [January](https://rviews.rstudio.com/2020/02/24/january-2020-top-40-new-r-packages/), [February](https://rviews.rstudio.com/2020/03/26/february-2020-top-40-new-r-packages/), [March](https://rviews.rstudio.com/2020/04/27/march-2020-top-40-new-cran-packages/), [April](https://rviews.rstudio.com/2020/05/28/april-2020-top-40-new-cran-packages/), [May](https://rviews.rstudio.com/2020/06/24/may-2020-top-40-new-cran-packages/), [June](https://rviews.rstudio.com/2020/07/27/june-2020-top-40-new-cran-packages/), [July](https://rviews.rstudio.com/2020/08/27/july-2020-top-40-new-cran-packages/), [August](https://rviews.rstudio.com/2020/09/22/august-2020-top-40-new-cran-packages/), [September](https://rviews.rstudio.com/2020/10/23/sept-2020-top-40-new-cran-packages/), [October](https://rviews.rstudio.com/2020/11/19/october-2020-top-40-new-cran-packages/), [November](https://rviews.rstudio.com/2020/12/22/november-top-40-new-cran-packages/), [December](https://rviews.rstudio.com/2021/01/29/dec-2020-top-40-new-cran-packages/)
+
+* 2021: [January](https://rviews.rstudio.com/2021/02/24/january-2020-top-40-new-cran-packages/), [February](https://rviews.rstudio.com/2021/03/19/february-2021-top-40-new-cran-packages/), [March](https://rviews.rstudio.com/2021/04/22/march-2021-top-40-new-cran-packages/), [April](https://rviews.rstudio.com/2021/05/25/april-2021-top-40-new-cran-packages/)
