@@ -56,6 +56,14 @@ knitr::opts_chunk$set(echo = TRUE)
 
 * [Kuhn, Johnson - Feature Engineering and Selection: A Practical Approach for Predictive Models](http://www.feat.engineering/)
 
+* https://lmlcr.gagolewski.com/
+
+* https://rstudio-education.github.io/tidyverse-cookbook/
+
+* https://edav.info/index.html
+
+* https://data-cleaning.github.io/validate/
+
 
 ## Visualization
 
@@ -94,6 +102,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 * [Venables, Smith, the R Core Team - An Introduction to R](https://cran.r-project.org/doc/manuals/R-intro.pdf)
 
+* [Mirai Solutions - Technical Guidelines](https://mirai-solutions.ch/techguides/index.html)
+
+
 
 ## RMarkdown
 
@@ -102,6 +113,8 @@ knitr::opts_chunk$set(echo = TRUE)
 * [Xie - R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/)
 
 * [Tierney - RMarkdown for Scientists](https://rmd4sci.njtierney.com/)
+
+* https://m-clark.github.io/Introduction-to-Rmarkdown/
 
 
 ## Shiny
@@ -143,6 +156,14 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Machine learning and data science lists
 
+* https://www.bigbookofr.com/index.html
+
+* https://www.r-project.org/doc/bib/R-jabref.html
+
+* https://bookdown.org/home/archive/
+
+* https://bookdown.org/martin_monkman/DataScienceResources_book/
+
 * https://github.com/jphall663/awesome-machine-learning-interpretability
 
 * https://github.com/josephmisiti/awesome-machine-learning
@@ -168,11 +189,15 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Organization, workflow
 
+* [Manifesto for Agile Software Development](https://agilemanifesto.org/)
+
 * [Principles behind the Agile Manifesto](https://agilemanifesto.org/principles.html)
 
 * https://www.jeremyjordan.me/ml-projects-guide/
 
 * [Thoen - Agile Data Science with R](https://edwinth.github.io/ADSwR/)
+
+* https://books.ropensci.org/targets/
 
 * https://syslog.ravelin.com/data-science-best-practices-843c9693db8
 

@@ -1,0 +1,122 @@
+---
+title: "Creating an R package"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: TRUE
+    toc_float: TRUE
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Resources
+
+### Books
+
+[R Core Team - Writing R extensions](https://cran.r-project.org/doc/manuals/R-exts.html)
+
+[Wickham, Bryan - R Packages 2nd ed WIP](https://r-pkgs.org/)
+
+[Peng, Kross, Anderson - Mastering Software Development in R](https://bookdown.org/rdpeng/RProgDA/)
+
+[rOpenSci Packages: Development, Maintenance, and Peer Review](https://devguide.ropensci.org/)
+
+[Wickham - The tidyverse style guide](https://style.tidyverse.org/)
+
+
+### Articles, blog posts
+
+#### Package development
+
+https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/
+
+https://r-mageddon.netlify.app/post/writing-an-r-package-from-scratch/
+
+https://www.hvitfeldt.me/blog/usethis-workflow-for-package-development/
+
+http://www.mjdenny.com/R_Package_Pictorial.html
+
+https://masalmon.eu/2017/12/11/goodrpackages/
+
+https://masalmon.eu/2017/06/17/automatictools/
+
+https://rpubs.com/masalmon/282469
+
+https://magrichard.github.io/good_coding_practices/rpresentation.html#1
+
+https://kbroman.org/pkg_primer/
+
+https://support.rstudio.com/hc/en-us/articles/200486488-Developing-Packages-with-RStudio
+
+https://github.com/ropensci/unconf17/issues/5
+
+https://github.com/ropensci-archive/PackageDevelopment
+
+#### CI/CD
+
+https://juliasilge.com/blog/beginners-guide-to-travis/
+
+https://deanattali.com/blog/migrating-travis-to-github/
+
+https://orchid00.github.io/actions_sandbox/
+
+https://mirai-solutions.ch/techguides/cicd-pipelines-for-automatic-deployment-of-a-r-shiny-web-app.html
+
+https://jozef.io/r922-github-actions-r-packages/
+
+https://mdneuzerling.com/post/mlops-with-github-actions-and-r/
+
+https://blog--simonpcouch.netlify.app/blog/r-github-actions-commit/
+
+https://www.rostrum.blog/2020/08/09/ghactions-pkgs/
+
+https://ropensci.org/blog/2020/03/13/tic-ghactions/
+
+https://github.com/maxheld83/ghactions
+
+https://github.com/r-lib/actions
+
+#### Testing
+
+https://blog.r-hub.io/2020/11/18/testthat-utility-belt/
+
+https://www.hvitfeldt.me/blog/refactoring-tests/
+
+https://fromthebottomoftheheap.net/2020/04/30/rendering-your-readme-with-github-actions/
+
+#### Documentation
+
+https://enpiar.com/2017/11/21/getting-down-with-pkgdown/
+
+https://enpiar.com/2019/02/17/writing-docs-is-better-than-having-docs/
+
+https://mirai-solutions.ch/techguides/roxygen-documentation-guidelines.html
+
+#### Other
+
+https://simplystatistics.org/2015/11/06/how-i-decide-when-to-trust-an-r-package/
+
+https://blog.keras.io/user-experience-design-for-apis.html
+
+https://joncalder.co.za/2017-12-04-naming-things-is-hard/
+
+
+### R packages
+
+<!-- [CRAN]() [GitHub]() [website]() -->
+
+devtools: [CRAN](https://cran.r-project.org/web/packages/devtools/index.html) [GitHub](https://github.com/r-lib/devtools) [website](https://devtools.r-lib.org/)
+
+lintr: [CRAN](https://cran.r-project.org/web/packages/lintr/index.html) [GitHub](https://github.com/jimhester/lintr)
+
+styler: [CRAN](https://cran.r-project.org/web/packages/styler/index.html) [GitHub](https://github.com/r-lib/styler) [website](https://styler.r-lib.org/) 
+
+goodpractice: [CRAN](https://cran.r-project.org/web/packages/goodpractice/index.html) [GitHub](https://github.com/MangoTheCat/goodpractice) [website](http://mangothecat.github.io/goodpractice/)
+
+cyclocomp: [CRAN](https://cran.r-project.org/web/packages/cyclocomp/index.html) [GitHub](https://github.com/mangothecat/cyclocomp)
+
+available: [CRAN](https://cran.r-project.org/web/packages/available/index.html) [GitHub](https://github.com/r-lib/available)
+

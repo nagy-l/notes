@@ -1,0 +1,43 @@
+---
+title: "Using Python in RStudio"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: TRUE
+    toc_float: TRUE
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## References
+
+https://rstudio.github.io/reticulate/
+
+https://support.rstudio.com/hc/en-us/articles/1500007929061-Using-Python-with-the-RStudio-IDE
+
+https://support.rstudio.com/hc/en-us/articles/360023654474-Installing-and-Configuring-Python-with-RStudio
+
+https://docs.rstudio.com/tutorials/user/using-python-with-rstudio-and-reticulate/
+
+https://blog.rstudio.com/2020/10/07/rstudio-v1-4-preview-python-support/
+
+https://www.rstudio.com/solutions/r-and-python/
+
+https://raw.githubusercontent.com/rstudio/cheatsheets/master/reticulate.pdf
+
+https://bookdown.org/yihui/rmarkdown-cookbook/eng-python.html
+
+https://robotwealth.com/using-python-from-the-comfort-of-r-studio/
+
+https://www.business-science.io/code-tools/2019/02/06/python-in-rstudio-ide.html
+
+https://rpubs.com/keithmcnulty/r_and_python
+
+https://anderfernandez.com/en/blog/how-to-use-python-in-r/
+
+https://preettheman.medium.com/how-to-run-python-files-in-r-a050930952d3
+
+https://www.brodrigues.co/blog/2018-12-30-reticulate/

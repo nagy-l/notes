@@ -1,0 +1,45 @@
+---
+title: "Using DVC"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: TRUE
+    toc_float: TRUE
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Resources
+
+https://dvc.org/blog/r-code-and-reproducible-model-development-with-dvc
+
+https://mribeirodantas.xyz/blog/index.php/2020/03/05/r-dvc-and-rmarkdown/
+
+https://loppsided.blog/posts/2020-10-26-tidymodels-dvc-mashup/
+
+https://github.com/slopp/tidydvc
+
+https://dvc.org/doc
+
+https://github.com/iterative/dvc
+
+https://realpython.com/python-data-version-control/
+
+https://christophergs.com/machine%20learning/2019/05/13/first-impressions-of-dvc/
+
+https://hackernoon.com/how-to-get-started-with-data-version-control-dvc-nn2n31bo
+
+https://morioh.com/p/681ec149aa02
+
+https://towardsdatascience.com/introduction-to-dvc-data-version-control-tool-for-machine-learning-projects-7cb49c229fe0
+
+https://towardsdatascience.com/why-git-and-git-lfs-is-not-enough-to-solve-the-machine-learning-reproducibility-crisis-f733b49e96e8
+
+https://medium.com/y-data-stories/creating-reproducible-data-science-workflows-with-dvc-3bf058e9797b
+
+https://www.murillodigital.com/tech_talk/versioning_data_with_dvc/
+
+
